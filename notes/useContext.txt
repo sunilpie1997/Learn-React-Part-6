@@ -1,0 +1,13 @@
+Context
+
+->  WHAT IS NEED OF 'useContext' hook if we already have 'Context' to share data between components??? 
+
+->  context provides a way to pass data through the component tree without having to pass
+
+    props down manually at each level
+
+->  One way of doing is --> ex: 'componentC.js'. But as you can see, it's verbose and not readable.
+
+->  useContext hook makes it simpler. It is only used when we need to consume values (replaces <userContext.consumer/>)
+
+->  Ex: ComponentE.js
