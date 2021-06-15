@@ -6,8 +6,8 @@ Context
 
     props down manually at each level
 
-->  One way of doing is --> ex: 'componentC.js'. But as you can see, it's verbose and not readable.
+->  One way of doing is --> ex: 'componentX.js'. But as you can see, it's verbose and not readable.
 
 ->  useContext hook makes it simpler. It is only used when we need to consume values (replaces <userContext.consumer/>)
 
-->  Ex: ComponentE.js
+->  Ex: ComponentZ.js

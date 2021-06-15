@@ -1,7 +1,7 @@
 import React,{useContext} from 'react';
 import { userContext,channelContext} from '../App';
 
-const ComponentE= () => {
+const ComponentZ= () => {
 
     const user=useContext(userContext);
     const channel=useContext(channelContext);
@@ -12,4 +12,4 @@ const ComponentE= () => {
   
   )}
   
-  export default ComponentE;
+  export default ComponentZ;

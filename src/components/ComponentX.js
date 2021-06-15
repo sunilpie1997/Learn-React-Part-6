@@ -1,7 +1,7 @@
 import React from 'react';
 import { userContext,channelContext} from '../App';
 
-const ComponentC= () => {
+const ComponentX= () => {
 
     return (
   
@@ -28,4 +28,4 @@ const ComponentC= () => {
   
   )}
   
-  export default ComponentC;
+  export default ComponentX;

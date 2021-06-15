@@ -1,0 +1,21 @@
+useReducer
+
+->  see reduce-vs-useReducer.png
+
+->  it's a hook that is used for state management.
+
+->  But we have useState hook for that.
+
+->  It's an alternative for useState hook
+
+->  Then what's the difference?
+
+->  useState is bult using useReducer
+
+->  when to use useReducer vs useState?
+
+->  For simple state and action -> ex: CounterOne.js
+
+->  For complex state and action -> ex: CounterTwo.js
+
+->  multiple reducers -> ex: CounterThree.js
