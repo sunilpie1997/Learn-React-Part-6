@@ -1,0 +1,16 @@
+useReducer with useContext
+
+->  useReducer - Local state management
+
+->  share state between components - Global state management;
+
+->  USE useReducer + useContext for above
+
+->  for example, we have to implement solution for problem in 'sample.png'.
+
+    Here we have ONLY one counter accessible to all mentioned components.
+
+    we can increment and decrement this counter from these components.
+
+
+->  ex: ComponentA, ComponentB, ComponentC, ComponentD, ComponentE, ComponentF
