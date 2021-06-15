@@ -1,0 +1,6 @@
+Fetching data with useReducer
+
+
+->  we have already fetched data using useEffect and useState -> ex: DataFetchingOne.js
+
+->  Now we will fetch using useReducer - ex: DataFetchingTwo.js

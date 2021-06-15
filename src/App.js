@@ -10,6 +10,8 @@ import ComponentA from './components/ComponentA';
 import ComponentB from './components/ComponentB';
 import ComponentC from './components/ComponentC';
 
+import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingTwo from './components/DataFetchingTwo';
 
 export const userContext=React.createContext();
 export const channelContext=React.createContext();
@@ -65,7 +67,7 @@ function App() {
 
     /************************************************************/
     
-    /* useReducer with useContext - global state management */
+    /* useReducer with useContext - global state management
 		
     <CountContext.Provider
 			value={{ countState: count, countDispatch: dispatch }}
@@ -78,6 +80,14 @@ function App() {
 				<ComponentC />
 			</div>
 		</CountContext.Provider>
+
+    */
+
+    /*************************************************************/
+
+    /* Data Fetching with useReducer */
+    <DataFetchingTwo/>
+
 	)}
 
 export default App;
